@@ -1,61 +1,84 @@
 
 
-# Crop Yield Prediction 
-This project is a complete data-driven solution designed to predict crop yield using machine learning. It includes an interactive Streamlit web application, a detailed Power BI dashboard, and a reproducible model-building pipeline.
+# Predicting Crop Yield Using AI & Business Intelligence
+This project presents a comprehensive solution for predicting crop yield using Machine Learning and Business Intelligence tools. It combines predictive modeling through a user-friendly Streamlit app with an interactive Power BI dashboard to support agricultural decision-making, policy formulation, and resource planning.
 
-# Project Components
-Jupyter Notebook (Project_Crop_yield.ipynb): Covers data preprocessing, exploratory data analysis (EDA), feature engineering, and model training.
-
-Streamlit App (appp.py): Allows users to input various agricultural parameters and receive crop yield predictions.
-
-Power BI Dashboard (power bi crop ORGINAL.pbix): Offers rich visual insights into regional yields, crop performance, weather impact, and farming practices.
-
-Model Files: Includes the trained ML model (model.pkl), a scaler (scaler.pkl), and label encoders (label_encoder.pkl) for prediction.
+# Project Overview
+With rising concerns over food security and climate change, accurate crop yield prediction has become essential. This project addresses that need by analyzing agricultural data and building a machine learning model to estimate crop yield (in MT/HA) based on environmental and farming conditions. An integrated Power BI dashboard offers visual insights for stakeholders to understand regional performance and influencing factors.
 
 # Key Features
-Predicts crop yield (in MT/HA) based on real-world agricultural data.
+Predictive model for estimating crop yield based on real-time inputs
 
-User-friendly web interface with customizable input options.
+In-depth data analysis on soil type, weather, fertilizer usage, and irrigation
 
-Interactive Power BI dashboard for visual storytelling.
+Streamlit app for interactive predictions and exploration
 
-Modular and scalable pipeline for machine learning.
+Power BI dashboard with visual storytelling and KPIs
 
-# Machine Learning Overview
-The model is trained to predict Crop_Yield_MT_per_HA using a mix of categorical, numerical, and boolean features.
+AI-driven insights for yield optimization and planning
 
-Categorical data is label-encoded, and numerical data is scaled for better model performance.
+# Methodology
+Data Preprocessing
 
-Predictions are made based on features such as region, soil type, crop, rainfall, temperature, fertilizer and irrigation usage, weather condition, and days to harvest.
+Handled missing values and encoded categorical variables
 
-# Power BI Insights
-The dashboard includes:
+Scaled numerical features and engineered useful features (e.g., temperature category)
 
-Crop-wise and region-wise yield trends
+Exploratory Data Analysis (EDA)
 
-Analysis of fertilizer and irrigation use
+Analyzed rainfall, temperature, days to harvest, and crop patterns
 
-Impact of temperature and rainfall on yield
+Visualized correlations and trends using Matplotlib and Seaborn
 
-Summarized KPIs for quick understanding
+Model Building
 
-# Use Case
-Ideal for:
+Trained a regression model to predict Crop_Yield_MT_per_HA
 
-Farmers and agronomists to make data-backed decisions
+Used label encoding for categorical fields and applied scaling
 
-Agricultural researchers studying yield patterns
+Evaluated model performance using R² and error metrics
 
-Policymakers exploring food production trends
+Streamlit Application
 
-🧑‍💻 Developed By
-Abhinav
+Developed a user interface for farmers or analysts to input data
 
-# Future Enhancements
-Integrate live weather data for dynamic predictions
+Live prediction of crop yield based on environmental and farm inputs
 
-Deploy on cloud platforms for broader access
+# Power BI Dashboard
+The Power BI dashboard titled "Crop Yield Analysis & Forecasting" provides:
 
-Add a feedback loop for continuous model improvement
+Total and average yield across regions and crops
 
-Mobile-friendly version of the app
+Visual correlation of rainfall, temperature, and yield
+
+Breakdown of yield based on irrigation and fertilizer use
+
+Dynamic filters to compare soil types, weather conditions, and crops
+
+Geographic view of productivity zones
+
+# Key Statistics:
+
+Highest Yielding Region: Central Plains
+
+Average Rainfall Across Crops: 522 mm
+
+Average Temperature: 28.3°C
+
+Most Commonly Used Fertilizer: NPK
+
+# Tools & Technologies
+Python for data preprocessing and machine learning
+
+Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+Streamlit for building the interactive web app
+
+Power BI Desktop for dynamic dashboard creation
+
+#  Project Outcomes
+This project demonstrates how AI and BI tools can be combined to predict agricultural outputs effectively. It empowers decision-makers with predictive insights, enhances resource planning, and improves agricultural productivity through data-driven strategies.
+
+# Acknowledgements
+Dataset: Custom agricultural dataset for crop prediction
+Inspired by real-world farming scenarios and agronomic patterns
