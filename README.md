@@ -3,6 +3,14 @@
 
 
 
+
+
+
+
+
+
+
+
 # Predicting Crop Yield Using AI & Business Intelligence
 This project presents a comprehensive solution for predicting crop yield using Machine Learning and Business Intelligence tools. It combines predictive modeling through a user-friendly Streamlit app with an interactive Power BI dashboard to support agricultural decision-making, policy formulation, and resource planning.
 
